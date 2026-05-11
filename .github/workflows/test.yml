@@ -1,7 +1,7 @@
 name: ml pipeline 
 on:
  push:
-  braches: [main]
+  branches: [main]
 jobs:
  check:
    runs-on: ubuntu_latest
